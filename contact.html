@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>E-Resume</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <nav class="navbar">
+      <div class="max-width">
+         <div class="logo"><a href="index.html">Ahmad Husaini<br>Online Portfolio</a></div>
+         <div class="nav1">
+            <a href="index.html">Home</a> <br>
+            <a href="about2.html">About</a>
+         </div>
+         <div class="nav2">
+            <a href="services.html">Works</a> <br>
+            <a href="skills.html">Skills</a> <br>
+            <a href="contact.html">Contact</a>
+         </div>
+         <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+         </div>
+      </div>
+   </nav>
+
+
+   <!-- contanct me section start -->
+   <section class="contact" id="contact">
+      <div class="max-width">
+
+
+         <div class="contact-content">
+            <div class="column left">
+
+               <div class="wrkCon">
+                  <div class="wrkC">
+
+                     <h1>
+                        <span class="row">
+                           <img src="images/contacttrans.png" alt="">
+                        </span>
+                        <span class="row2">
+                           <img src="images/shake.gif" alt="">
+                        </span>
+                     </h1>
+                  </div>
+               </div>
+            </div>
+            <div class="column right">
+               <p>Interested with my work? Would you like <br> to reach out to me? Feel free to reach out <br> by using
+                  your email</p> <br><br>
+               <form action="#">
+                  <div class="fields">
+                     <div class="field name">
+                        <input style="text-align: center;" type="text" placeholder="Name" required>
+                     </div>
+                     <div class="field email">
+                        <input style="text-align: center;" type="email" placeholder="Email" required>
+                     </div>
+                  </div>
+                  <div class="field">
+                     <input style="text-align: center;" type="text" placeholder="Subject" required>
+                  </div>
+                  <div class="field textarea">
+                     <textarea style="text-align: center;" cols="30" rows="10" placeholder="Something in your mind.."
+                        required></textarea>
+                  </div>
+                  <div class="button">
+                     <button type="submit"><i class="fa fa-long-arrow-right"
+                           style="color:black;transform: scale(1.4)"></i></button>
+                  </div>
+               </form>
+            </div>
+
+            <div class="end">
+               <img src="images/sunset.jpg" alt="">
+            </div>
+
+            <div class="frmchck">
+               <form action="#">
+                  <p>Choose any review</p>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle1"> Good Color</label><br>
+                  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  <label for="vehicle2"> Bad UI</label><br>
+                  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                  <label for="vehicle3"> Messy</label><br><br>
+
+                  <p>Please select your age:</p>
+                  <input type="radio" id="age1" name="age" value="30">
+                  <label for="age1">0 - 20</label><br>
+                  <input type="radio" id="age2" name="age" value="60">
+                  <label for="age2">21 - 40</label><br>
+                  <input type="radio" id="age3" name="age" value="100">
+                  <label for="age3">41 - 60</label><br><br>
+
+                  <label for="cars">Choose rating:</label>
+                  <select name="cars" id="cars">
+                     <option value="volvo">1</option>
+                     <option value="saab">2</option>
+                     <option value="opel">3</option>
+                     <option value="audi">4</option>
+                     <option value="audi">5 :)</option>
+                  </select>
+                  <br><br>
+                  <input type="submit" value="Submit">
+               </form>
+
+            </div>
+
+
+         </div>
+      </div>
+   </section>
+
+   <!-- footer section start here -->
+   <footer>
+      <span>Created By <a href="#">AhmadHusaini</a> | <span class="far fa-copyright"></span>2022 All Right
+         Reserved</span>
+   </footer>
+
+   <script src="script.js"></script>
+
+
+</body>
+
+</html>
